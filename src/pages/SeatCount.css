@@ -1,0 +1,72 @@
+.seat-count-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.seat-count-container h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.scooter-img {
+  width: 90px;
+  margin: 15px 0;
+}
+
+.seat-numbers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.seat-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #eee;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.seat-btn.selected {
+  background-color: #f44666;
+  color: white;
+}
+
+.price-tiers {
+  font-size: 14px;
+  margin: 20px 0;
+  color: #444;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.proceed-btn {
+  margin-top: 20px;
+  background-color: #f44666;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.proceed-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

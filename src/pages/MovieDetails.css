@@ -1,0 +1,177 @@
+.movie-details-page {
+  padding: 40px 60px;
+  background-color: #000;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.movie-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.poster-section img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(255, 0, 100, 0.3);
+}
+
+.movie-text-content {
+  flex: 1;
+}
+
+.movie-text-content h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.movie-text-content p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+  color: #ccc;
+}
+
+.movie-text-content .description {
+  margin-top: 20px;
+  color: #eee;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.trailer-btns {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.trailer-button,
+.book-btn {
+  background: #f72585;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.trailer-button:hover,
+.book-btn:hover {
+  background: #c9184a;
+}
+
+.cast-section {
+  margin-top: 60px;
+}
+
+.cast-section h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.cast-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cast-card {
+  text-align: center;
+  width: 120px;
+}
+
+.cast-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.cast-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.back-home {
+  margin-top: 40px;
+}
+
+.back-btn {
+  background: #010f0b;
+  color: rgb(247, 237, 237);
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #c9184a;
+}
+.book-now-btn {
+  background-color: #ff4b2b;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+}
+
+.book-now-btn:hover {
+  background-color: #ff1c00;
+}
+.cast-section {
+  background-color: #111;
+  padding: 30px 20px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.cast-section h3 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.cast-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  gap: 20px;
+}
+
+.cast-card {
+  flex: 0 0 auto;
+  text-align: center;
+  width: 100px;
+}
+
+.cast-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+  border: 2px solid #444;
+}
+
+.cast-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cast-role {
+  font-size: 12px;
+  color: #bbb;
+}
